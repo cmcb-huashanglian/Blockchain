@@ -1,4 +1,4 @@
-# A simple implementation of blockchain
+# A simple implementation of cmcb blockchain
 This project aims to create a simple implementation of blockchain concept and demostrate it in a user friendly way. 
 
 ## Design Concept
@@ -73,10 +73,4 @@ curl http://localhost:8080/agent/all
 curl -X DELETE http://localhost:8080/agent/all
 ```
 
-## Change log
-- [x] 20170902 Let newly added agent sync the latest blockchain from peers.
-- [x] 20170818 Add a web interface.
-- [x] 20170807 Server side code base with rest interface.
 
-
-This project is inspired by [naivechain](https://github.com/lhartikk/naivechain). 
